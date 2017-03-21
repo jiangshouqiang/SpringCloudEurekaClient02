@@ -1,0 +1,17 @@
+server:
+  port: 9002
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888/
+      name: application
+#      name: foo
+#      profile: development
+#      label: test
+#  profiles:
+#    active: mysql
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8801/eureka/
